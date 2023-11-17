@@ -1,0 +1,8 @@
+print("What is your Surname ?")
+surname = input()
+print("What is your First name ?")
+firstName = input()
+print("what is your country of orgin ?")
+country = input()
+print("Full name is " + surname.upper() + " " + firstName.upper())
+print(surname.upper() + " is from " + country.upper())

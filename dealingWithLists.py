@@ -39,3 +39,12 @@ print(countries)
 print(deleteCountry)
 
 countries.remove('Morocco')
+
+#sort and reverse
+
+cars = ['bmw', 'honda', 'benz', 'tesla', 'rivian', 'toyota', 'maybach']
+print(cars)
+cars.sort()
+print(cars)
+cars.reverse()
+print(cars)

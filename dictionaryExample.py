@@ -1,5 +1,6 @@
 #Dictionary
 
+'''
 fruits = ['manago', 'banana', 'apple', 'pineapple']
 
 employee = {
@@ -44,6 +45,8 @@ print(foodstuffs['fruits'])
 foodstuffs['fruits'].append('coconut')
 print(foodstuffs['fruits'])
 
+'''
+
 shawersGym = {
     'user1' : {
         'name': 'Kofi Bones',
@@ -59,11 +62,11 @@ shawersGym = {
     }
 }
 
-print(shawersGym)
+#print(shawersGym)
 
 newMember = {
     'name' : 'Shawers',
-    'age' : [150],
+    'age' : 150,
     'location' : 'Essikadi',
     'bodyGoals' : 'lean'
 }

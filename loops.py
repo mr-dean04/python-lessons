@@ -78,9 +78,9 @@ for items_keys, items_values in shawersGym.items():
                 count_number+=1
 '''
 
-for items_values in shawersGym.items():
-    if items_values[1]['age'] > 20:
-        count_number+=1
+for items_keys, items_values in shawersGym.items():
+    if items_values['age'] > 20:
+        count_number +=1
 
 print(count_number)
              

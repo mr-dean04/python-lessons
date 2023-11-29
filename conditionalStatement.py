@@ -27,7 +27,7 @@ numbers = [4, 6, 2, 3, 1, 8, 4, 2]
 checkNumber = 2
 checkName = 'john'
 
-if checkName or 'kweku' in names:
+if checkName or 'kweku' in names[:]:
     print('John is present')
 
 if checkNumber in numbers:

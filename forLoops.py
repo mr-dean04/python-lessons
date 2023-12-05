@@ -65,21 +65,53 @@ shawersGym = {
     'age' : 150,
     'location' : 'Essikadi',
     'bodyGoals' : 'lean'
+    },
+    'user4' :{
+        'name': 'Mike',
+        'age': 18,
+        'location': 'Sekondi',
+        'bodyGoals': 'bulk'
+    },
+    'user5': {
+        'name': 'josh',
+        'age': 18,
+        'location': 'Essikadi',
+        'bodyGoals': 'lean'
     }
 }
 
-count_number = 0
-
-for items_keys, items_values in shawersGym.items():
-    if items_values['age'] > 20:
-        count_number +=1
-
-print(count_number)
-             
+counter = 0
+#print(list(shawersGym.items()))
 
 
+shawersMembers = list(shawersGym.items())
+#print(shawersMembers)
+#print(shawersMembers[0])
+#print(shawersMembers[0][1])
 
 
 
+#print(shawersGym.items())
+
+'''
+userOne = {'name': 'Kofi Bones', 'age': 29, 'location': 'Sekondi', 'bodyGoals': 'bulk'}
+print(userOne['age'])
 
 
+if userOne['age'] == 20:
+    print('You are truly 29')
+
+
+#counts the number of members who are 18 years old
+for var1 in shawersGym.values():
+    if var1['age'] == 18:
+        counter = counter + 1  
+print(counter)
+'''    
+members18 = []
+#print the names of people who are 18 years old
+for var1 in shawersGym.values():
+    if var1['age'] == 18:
+        members18.append(var1['name'].title())
+
+print(members18)

@@ -54,4 +54,12 @@ def fullName(first_name,  last_name, middle_name=''):
 
 
 getFullName = fullName(first_name= 'Sarah', middle_name = 'Maame Ama', last_name ='Johnson')
-print(getFullName)
+#print(getFullName)
+
+def make_stew(dish, food_type, *ingredients):
+    print('The number of dishes: ' + str(dish))
+    print('Food type is ' + food_type)
+
+    for ingredient in ingredients:
+        print('-' + ingredient)
+make_stew(6, 'potato_rice', 'tomatoes', 'oil', 'pepper', 'onion')

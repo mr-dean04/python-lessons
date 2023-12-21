@@ -8,13 +8,13 @@ members = [
     {
         'name' : 'Enjoy',
         'age'  : 60,
-        'location' : 'Essikado',
-        'bodyGoals' : 'Bulk'
+        'location' : 'Essikadu',
+        'bodyGoals' : 'Lean'
     },
     {
         'name' : 'Kweku',
         'age'  : 20,
-        'location' : 'Essikado',
+        'location' : 'Essikadu',
         'bodyGoals' : 'Lean'
     },
     {
@@ -28,5 +28,33 @@ members = [
         'age': 37,
         'location': 'Ntwaben',
         'bodyGoals' : 'Lean'
+    },
+    {    'name': 'Agyapong',
+         'age' : 29,
+         'location': 'Essikadu',
+         'bodyGoals': 'Bulk'
+    },
+    {     'name': 'Mickey',
+          'age' : 24,
+          'location': 'Sekondi',
+          'bodyGoals': 'Bulk'
+    },
+    {
+          'name': 'Black',
+          'age': 18,
+          'location': 'Takoradi',
+          'bodyGoals': 'Leam'
+    },
+    {
+           'name': 'George',
+           'age': 44,
+           'location': 'Sekondi',
+           'bodyGoals': 'Lean'
+    },
+    {
+            'name': 'Prince',
+            'age': 29,
+            'location': 'Takoradi',
+            'bodyGoals': 'Lean'
     }
 ]

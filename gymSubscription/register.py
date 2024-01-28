@@ -1,3 +1,4 @@
+from folder import *
 def registerMember():
     '''Register user details''' 
     print('Input your detail to get registered')
@@ -16,4 +17,5 @@ def registerMember():
         'bodyGoal' : bodyGoal.title()
     }
     print(userDetails)
+    append_members_file(userDetails)
     return userDetails

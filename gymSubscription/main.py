@@ -15,8 +15,14 @@ request
 from register import *
 from search import *
 from gymMembers import *
+from folder import *
 
 shawerGymMembers = members
+
+delete_File()
+
+for member in shawerGymMembers:
+    append_members_file(member)
 
 while True:
     print('********Shawers Gym, You are Welcome********')
